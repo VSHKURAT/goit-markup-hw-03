@@ -21,15 +21,15 @@
         <a href="./index.html" lang="en" class="logo"><span class="logo-first-part">Web</span>Studio</a>
     
         <nav class="navigation">
-            <ul class="site-nav list">
-                <li><a class="site-nav-link current" href="./index.html">Студия</a></li>
-                <li><a class="site-nav-link" href="./portfolio/portfolio.html">Портфолио</a></li>
-                <li><a class="site-nav-link" href="">Контакты</a></li>
+            <ul class="site-nav ">
+                <li class="item" ><a class="site-nav-link current" href="./index.html">Студия</a></li>
+                <li class="item" ><a class="site-nav-link" href="./portfolio/portfolio.html">Портфолио</a></li>
+                <li class="item" ><a class="site-nav-link" href="">Контакты</a></li>
             </ul>
         </nav>
     
        
-            <ul class="auth-nav list">
+            <ul class="auth-nav">
                 <li class="item"><a class="auth-nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="item"><a class="auth-nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
@@ -51,7 +51,7 @@
 <section class="feature-section section">
     <div class="container">
     <h2 class="section-title visuallyhidden">Особенности</h2>
-    <ul class="list flexbox">
+    <ul class="feature-list">
         <li class="feature-item">
             <h3 class="feature-title">Внимание к деталям</h3>
             <p class="feature-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -76,7 +76,7 @@
 <section class="section-work section">
     <div class="container">
     <h2 class="section-title">Чем мы занимаемся</h2>
-    <ul class="list flexbox">
+    <ul class="work-list">
         <li class="work-item" ><img width="370"  src="./images/img1.jpg" alt="На столе записка алгоритма,клавиатура и планшет"></li>
         <li class="work-item" ><img width="370" src="./images/img2.jpg" alt="Человек использует сматфон и ноутбук"></li>
         <li class="work-item" ><img width="370" src="./images/img3.jpg" alt="Человек использует планшет на котором размещенна палитра цветов"></li>
@@ -87,30 +87,38 @@
 <section class="our-team section">
 <div class="container">
     <h2 class="section-title">Наша команда</h2>
-    <ul class="list flexbox">
+    <ul class="team-list">
         <li class="team-item">
             
             <img width="270" src="./images/team1.jpg" alt="Игорь Демьяненко">
-            <h3 class="teammates-name">Игорь Демьяненко</h3>
-            <p  lang="en" class="teammates-position">Product Designer</p>
+           <div class="team-card">
+                <h3 class="teammates-name">Игорь Демьяненко</h3>
+                <p lang="en" class="teammates-position">Product Designer</p>
+           </div> class="adress-item"
         </li>
         <li class="team-item">
            
             <img width="270" src="./images/team2.jpg" alt="Ольга Репина">
+            <div class="team-card">
             <h3 class="teammates-name">Ольга Репина</h3>
             <p lang="en" class="teammates-position">Frontend Developer</p>
+            </div>
         </li>
         <li class="team-item">
            
             <img width="270" src="./images/team3.jpg" alt="Николай Тарасов">
+            <div class="team-card">
             <h3 class="teammates-name">Николай Тарасов</h3>
             <p lang="en" class="teammates-position"> Marketing</p>
+            </div>
         </li>
         <li class="team-item">
             
             <img width="270" src="./images/team4.jpg" alt="Михаил Ермаков">
+            <div class="team-card">
             <h3 class="teammates-name">Михаил Ермаков</h3>
-            <p lang="en" class="teammates-position">UI Designer</p> 
+            <p lang="en" class="teammates-position">UI Designer</p>
+            </div> 
         </li>
     </ul>
 </div>
@@ -121,10 +129,10 @@
 <div class="container footer-container">
     <a href="./index.html" lang="en" class="logo "><span class="logo-first-part">Web</span><span class="logo-second-part">Studio</span></a>
     <address class="footer-address">
-        <ul class="list">
-            <li ><a class="address-link"  href="https://goo.gl/maps/8gZ2Wu5cqemFH6tR6" target= "_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li ><a class="address-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li ><a class="address-nav" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="feature">
+            <li class="address-item"><a class="address-link"  href="https://goo.gl/maps/8gZ2Wu5cqemFH6tR6" target= "_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="address-item"><a class="address-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="address-item"><a class="address-nav" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </address>
 </div>
